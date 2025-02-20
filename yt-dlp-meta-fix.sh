@@ -4,6 +4,7 @@ if [ -z "$1" ]; then
   echo "usage: $0 <album name> [out dir] [ext]"
   echo "out dir default: out"
   echo "ext default: mp3"
+  exit 1
 fi
 
 if [ -z "$2" ]; then
